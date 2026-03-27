@@ -3,65 +3,84 @@
         <title>
             Cavendish Student Support
         </title>
-        <style src="CSS/styles.css"></style>
+        <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
     </head>
 
     <body class="body">
         <section class="header">
-            <span><a href="grades.html">Grades</a></span>
-            <span><a href="lectures.html">Lectures</a></span>
-            <span><a href="communication.html">Communication</a></span>
+            <div class="header-container">
+               <h2>CUU Student Support</h2>
+                <nav class="nav-minimal">
+                    <a href="index.html" class="nav-link">Communication</a>
+                    <a href="lectures.html" class="nav-link">Lectures</a>
+                    <a href="grades.html" class="nav-link">Grades</a>
+                </nav> 
+            </div>
+
         </section>
 
         <section class="content_wrapper">
             <div class="lect_cards_wrapper">
-                <div class="lect_card_container", id="ongoing">
 
-                    <h2>On going</h2>
-                    <div class="lect_description">
-                        <h3>Name: Lecture Name</h3>
-                        <h3>Code: Lecture code</h3>
-                        <h3>Time: 00:00 - 00:00</h3>
-                        <h3>Lecturer: Lecturer Name</h3>
+                <h3>On going</h3>
+                <div class="cards_container">
+                    <div class="card_wrapper">
+                        <img src="" alt="" class="card-bg">
+                        <div class="card">
+                            Lecture Name
+                            Lecture code
+                            00:00 - 00:00
+                            Lecturer Name
+                        </div>
                     </div>
-
-                    <div class="lect_essentials">
-                        <h3>Lecture Notes: <a href="#">Lecture Notes</a></h3>
-                        <h3>Exercise: <a href="#">Lecture Exercise</a></h3>
-                        <span class="lect_communication">
-                            <h3>Communication:</h3>
-                            <p>
-                                Important Communication from the lecturer or Class Cordinator about the specific Lecture
-                            </p>
-                        </span>
+                    
+                    <div class="card_wrapper">
+                        <img src="" alt="" class="card-bg">
+                        <div class="card">
+                            <a href="#">Lecture Notes</a>
+                            <a href="#">Exercise</a>
+                            <span class="lect_communication">
+                                <h5>Communication:</h5>
+                                <p>
+                                    Important Communication from the lecturer or Class Cordinator about the specific Lecture
+                                </p>
+                            </span>
+                        </div>
                     </div>
+                    
                 </div>
 
-                <div class="lect_card_container", id="upnext">
+                <h3>Up Next</h3>
+                <div class="cards_container", id="upnext">
 
-                    <h2>Up Next</h2>
-                    <div class="lect_description">
-                        <h3>Name: Lecture Name</h3>
-                        <h3>Code: Lecture code</h3>
-                        <h3>Time: 00:00 - 00:00</h3>
-                        <h3>Lecturer: Lecturer Name</h3>
-                        <h3>Class Link: <a href="#">Meet Link</a></h3>
+                    <div class="card_wrapper">
+                        <img src="" alt="" class="card-bg">
+                        <div class="card">
+                            Lecture Name
+                            Lecture code
+                            00:00 - 00:00
+                            Lecturer Name
+                        </div>
                     </div>
-
-                    <div class="lect_essentials">
-                        <h3>Lecture Notes: <a href="#">Lecture Notes</a></h3>
-                        <h3>Exercise: <a href="#">Lecture Exercise</a></h3>
-                        <span class="lect_communication">
-                            <h3>Communication:</h3>
-                            <p>
-                                Important Communication from the lecturer or Class Cordinator about the specific Lecture
-                            </p>
-                        </span>
+                    
+                    <div class="card_wrapper">
+                        <img src="" alt="" class="card-bg">
+                        <div class="card">
+                            <a href="#">Lecture Notes</a>
+                            <a href="#">Exercise</a>
+                            <span class="lect_communication">
+                                <h5>Communication:</h5>
+                                <p>
+                                    Important Communication from the lecturer or Class Cordinator about the specific Lecture
+                                </p>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="sem_timetable">
+            
+            <h3>Time Table</h3>
+            <div class="results_container">
                 <table>
                     <tr>
                         <th>Day</th>
@@ -74,47 +93,47 @@
 
                     <tr>
                         <td>Day</td>
-                        <th>Time</th>
-                        <th>Code</th>
-                        <th>Module</th>
-                        <th>Room</th>
-                        <th>Lecturer</th>
+                        <td>Time</td>
+                        <td>Code</td>
+                        <td>Module</td>
+                        <td>Room</td>
+                        <td>Lecturer</td>
                     </tr>
 
                     <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Code</th>
-                        <th>Module</th>
-                        <th>Room</th>
-                        <th>Lecturer</th>
+                        <td>Day</td>
+                        <td>Time</td>
+                        <td>Code</td>
+                        <td>Module</td>
+                        <td>Room</td>
+                        <td>Lecturer</td>
                     </tr>
 
                     <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Code</th>
-                        <th>Module</th>
-                        <th>Room</th>
-                        <th>Lecturer</th>
+                        <td>Day</td>
+                        <td>Time</td>
+                        <td>Code</td>
+                        <td>Module</td>
+                        <td>Room</td>
+                        <td>Lecturer</td>
                     </tr>
 
                     <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Code</th>
-                        <th>Module</th>
-                        <th>Room</th>
-                        <th>Lecturer</th>
+                        <td>Day</td>
+                        <td>Time</td>
+                        <td>Code</td>
+                        <td>Module</td>
+                        <td>Room</td>
+                        <td>Lecturer</td>
                     </tr>
 
                     <tr>
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Code</th>
-                        <th>Module</th>
-                        <th>Room</th>
-                        <th>Lecturer</th>
+                        <td>Day</td>
+                        <td>Time</td>
+                        <td>Code</td>
+                        <td>Module</td>
+                        <td>Room</td>
+                        <td>Lecturer</td>
                     </tr>
                 </table>
             </div>

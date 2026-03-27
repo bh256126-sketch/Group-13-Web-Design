@@ -3,20 +3,26 @@
         <title>
             Cavendish Student Support
         </title>
-        <style src="CSS/styles.css"></style>
+        <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
     </head>
 
     <body class="body">
         <section class="header">
-            <span><a href="grades.html">Grades</a></span>
-            <span><a href="lectures.html">Lectures</a></span>
-            <span><a href="communication.html">Communication</a></span>
+            <div class="header-container">
+               <h2>CUU Student Support</h2>
+                <nav class="nav-minimal">
+                    <a href="index.html" class="nav-link">Communication</a>
+                    <a href="lectures.html" class="nav-link">Lectures</a>
+                    <a href="grades.html" class="nav-link">Grades</a>
+                </nav> 
+            </div>
+
         </section>
-        
-        <section class="content_wrapper">
-            <div class="year_sem_container">
+
+        <section class="content_container">
+            <div class="year_sem_wrapper">
                 <label for="year">Choose Your Year of Study:</label>
-                <select id="year" name="year">
+                <select id="year" name="year" class="custom-select">
                     <option value="Year_1">Year 1</option>
                     <option value="Year_2">Year 2</option>
                     <option value="Year_3">Year 3</option>
@@ -24,7 +30,7 @@
                 </select>
 
                 <label for="semester">Choose Your Semester of Study:</label>
-                <select id="Semester" name="Semester">
+                <select id="Semester" name="Semester" class="custom-select">
                     <option value="Semester_1">Semester 1</option>
                     <option value="Semester_2">Semester 2</option>
                     <option value="Semester_3">Semester 3</option>
@@ -35,7 +41,7 @@
             </div>
 
             <div class="results_wrapper">
-                <div><h2>CAT 1</h2></div>
+                <div><h3>CAT 1</h3></div>
                 <div class="results_container", id="CAT1">
                     <table>
                         <tr>
@@ -73,7 +79,7 @@
             </div>
 
             <div class="results_wrapper">
-                <div><h2>CAT 2</h2></div>
+                <div><h3>CAT 2</h3></div>
                 <div class="results_container", id="CAT2">
                     <table>
                         <tr>
@@ -111,7 +117,7 @@
             </div>
 
             <div class="results_wrapper">
-                <div><h2>Final Exam</h2></div>
+                <div><h3>Final Exam</h3></div>
                 <div class="results_container", id="final_exam">
                     <table>
                         <tr>
@@ -149,7 +155,7 @@
             </div>
 
             <div class="results_wrapper">
-                <div><h2>TOTALS</h2></div>
+                <div><h3>TOTALS</h3></div>
                 <div class="results_container", id="totals">
                     <table>
                         <tr>
